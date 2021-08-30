@@ -17,6 +17,7 @@ for name in files:
 
 print("Successfully deployed!")
 print("Original Repo of: @OFFICIAL_SAMEER")
+print("Modified By : @weTemp")
 print("Also Join @LegendBot_Support")
 
 if __name__ == "__main__":
