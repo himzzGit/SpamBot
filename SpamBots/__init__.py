@@ -24,25 +24,25 @@ BOT_TOKEN9 = config("BOT_TOKEN9", default=None)
 BOT_TOKEN10 = config("BOT_TOKEN10", default=None)
 SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
 
-UstaD = TelegramClient('UstaD', APP_ID, API_HASH).start(bot_token=BOT_TOKEN) 
+Legend = TelegramClient('Legend', APP_ID, API_HASH).start(bot_token=BOT_TOKEN) 
 
-UstaD2 = TelegramClient('UstaD2', APP_ID, API_HASH).start(bot_token=BOT_TOKEN2) 
+Legend2 = TelegramClient('Legend2', APP_ID, API_HASH).start(bot_token=BOT_TOKEN2) 
 
-UstaD3 = TelegramClient('UstaD3', APP_ID, API_HASH).start(bot_token=BOT_TOKEN3) 
+Legend3 = TelegramClient('Legend3', APP_ID, API_HASH).start(bot_token=BOT_TOKEN3) 
 
-UstaD4 = TelegramClient('UstaD4', APP_ID, API_HASH).start(bot_token=BOT_TOKEN4) 
+Legend4 = TelegramClient('Legend4', APP_ID, API_HASH).start(bot_token=BOT_TOKEN4) 
 
-UstaD5 = TelegramClient('UstaD5', APP_ID, API_HASH).start(bot_token=BOT_TOKEN5) 
+Legend5 = TelegramClient('Legend5', APP_ID, API_HASH).start(bot_token=BOT_TOKEN5) 
 
-UstaD6 = TelegramClient('UstaD6', APP_ID, API_HASH).start(bot_token=BOT_TOKEN6) 
+Legend6 = TelegramClient('Legend6', APP_ID, API_HASH).start(bot_token=BOT_TOKEN6) 
 
-UstaD7 = TelegramClient('UstaD7', APP_ID, API_HASH).start(bot_token=BOT_TOKEN7) 
+Legend7 = TelegramClient('Legend7', APP_ID, API_HASH).start(bot_token=BOT_TOKEN7) 
 
-UstaD8 = TelegramClient('UstaD8', APP_ID, API_HASH).start(bot_token=BOT_TOKEN8) 
+Legend8 = TelegramClient('Legend8', APP_ID, API_HASH).start(bot_token=BOT_TOKEN8) 
 
-UstaD9 = TelegramClient('UstaD9', APP_ID, API_HASH).start(bot_token=BOT_TOKEN9) 
+Legend9 = TelegramClient('Legend9', APP_ID, API_HASH).start(bot_token=BOT_TOKEN9) 
 
-UstaD10 = TelegramClient('UstaD10', APP_ID, API_HASH).start(bot_token=BOT_TOKEN10) 
+Legend10 = TelegramClient('Legend10', APP_ID, API_HASH).start(bot_token=BOT_TOKEN10) 
 
 RAID = [
     "MADARCHOD TERI MAA KI CHUT ME GHUTKA KHAAKE THOOK DUNGA 🤣🤣",
