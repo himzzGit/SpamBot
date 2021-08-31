@@ -10,4 +10,4 @@
 ------------------------------------------------
 ## 🤩 More Cool Features : 
 <h3> Coming Soon:
-<img src="https://telegra.ph/file/14d9950d56e70efabcc49.mp4>
+<video src="https://telegra.ph/file/14d9950d56e70efabcc49.mp4>
