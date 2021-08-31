@@ -1,4 +1,4 @@
-<h1 color:Red>Legend Spam Bot </h1> <p align="center">
+<h1 style="color:blue;">Legend Spam Bot!</h1>
   <img src="https://telegra.ph/file/e5a736ab5b8da8d86be39.jpg">
 </p>
 
