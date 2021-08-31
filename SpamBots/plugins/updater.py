@@ -96,7 +96,7 @@ async def updater(message):
     if len(message_one) > 4095:
         with open("change.log", "w+", encoding="utf8") as out_file:
             out_file.write(str(message_one))
-        await UstaD.send_message(
+        await Legend.send_message(
             message.chat_id, document="change.log", caption=message_two
         )
         os.remove("change.log")
