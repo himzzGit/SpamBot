@@ -29,7 +29,7 @@ async def spam(e):
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        Ustad = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        Legend = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         smex = await e.get_reply_message()
         if len(Legend) == 2:
             message = str(Legend[1])
