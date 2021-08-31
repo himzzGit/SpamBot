@@ -1,17 +1,17 @@
 {
     "name": "Spam Bot 2.0",
     "description": "Best Spamming Bots",
-    "logo": "https://telegra.ph/file/8626f33867fc155eaa404.jpg",
+    "logo": "https://telegra.ph/file/e5a736ab5b8da8d86be39.jpg",
     "keywords": [
         "telegram",
         "telethon",
         "telegram-bot",
-        "Ustad-op",
+        "Legend-op",
         "SpamBots"
     ],
-    "repository": "https://t.me/USTAD_OP",
-    "website": "https://t.me/USTAD_OP",
-    "success_url": "https://t.me/USTAD_OP",
+    "repository": "https://github.com/HimzzGit/Spambot",
+    "website": "https://t.me/weTemp",
+    "success_url": "https://t.me/MrInfinity_robot",
     "env": {
         "API_HASH": {
             "description": "You API HASH from my.telegram.org",
@@ -23,7 +23,7 @@
         },
         "BOT_TOKEN": {
             "description": "Bot token, get it from @BotFather.",
-            "value": ""
+            "value": "1989175220:AAFKisc3M-K0i0e8tGWJrig36g38W4Mu4sg"
         },
         "BOT_TOKEN2": {
             "description": "Bot token, get it from @BotFather.",
@@ -71,8 +71,8 @@
             
         },
         "SUDO_USERS": {
-            "description": "Owner Id",
-            "value": ""
+            "description": "Sudo user's Id",
+            "value": "1940311748"
             
         },
         "HEROKU_API_KEY": {
