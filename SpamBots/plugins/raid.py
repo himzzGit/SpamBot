@@ -134,7 +134,7 @@ async def _(e):
 @Legend4.on(events.NewMessage(pattern=".drraid"))
 @Legend5.on(events.NewMessage(pattern=".drraid"))
 @Legend6.on(events.NewMessage(pattern=".drraid"))
-@legend7.on(events.NewMessage(pattern=".drraid"))
+@Legend7.on(events.NewMessage(pattern=".drraid"))
 @Legend8.on(events.NewMessage(pattern=".drraid"))
 @Legend9.on(events.NewMessage(pattern=".drraid"))
 @Legend10.on(events.NewMessage(pattern=".drraid"))
