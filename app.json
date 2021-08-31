@@ -25,7 +25,7 @@
         "BOT_TOKEN": {
             "description": "Bot token, get it from @BotFather.",
             "required": true,
-            "value": "1989175220:AAFKisc3M-K0i0e8tGWJrig36g38W4Mu4sg"
+            "value": ""
         },
         "BOT_TOKEN2": {
             "description": "Bot token, get it from @BotFather.",
