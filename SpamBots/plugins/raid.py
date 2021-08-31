@@ -6,8 +6,7 @@ import random
 from telethon import events
 from telethon import functions, types
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
-from .. import UstaD, UstaD2, UstaD3, UstaD4, UstaD5, UstaD6, UstaD7, UstaD8, UstaD9, UstaD10, SUDO_USERS, RAID, RRAID
-
+from .. import  Legend, Legend2, Legend3, Legend4, Legend5, Legend6, Legend7, Legend8, Legend9, Legend10, SUDO_USERS
 SMEX_USERS = []
 for x in SUDO_USERS:
     SMEX_USERS.append(x)
@@ -16,30 +15,30 @@ que = {}
 
 
 
-@UstaD.on(events.NewMessage(pattern=".raid"))
-@UstaD2.on(events.NewMessage(pattern=".raid"))
-@UstaD3.on(events.NewMessage(pattern=".raid"))
-@UstaD4.on(events.NewMessage(pattern=".raid"))
-@UstaD5.on(events.NewMessage(pattern=".raid"))
-@UstaD6.on(events.NewMessage(pattern=".raid"))
-@UstaD7.on(events.NewMessage(pattern=".raid"))
-@UstaD8.on(events.NewMessage(pattern=".raid"))
-@UstaD9.on(events.NewMessage(pattern=".raid"))
-@UstaD10.on(events.NewMessage(pattern=".raid"))
+@Legend.on(events.NewMessage(pattern=".raid"))
+@Legend2.on(events.NewMessage(pattern=".raid"))
+@Legend3.on(events.NewMessage(pattern=".raid"))
+@Legend4.on(events.NewMessage(pattern=".raid"))
+@Legend5.on(events.NewMessage(pattern=".raid"))
+@Legend6.on(events.NewMessage(pattern=".raid"))
+@Legend7.on(events.NewMessage(pattern=".raid"))
+@Legend8.on(events.NewMessage(pattern=".raid"))
+@Legend9.on(events.NewMessage(pattern=".raid"))
+@Legend10.on(events.NewMessage(pattern=".raid"))
 async def spam(e):  
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
         Ustad = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         smex = await e.get_reply_message()
-        if len(Ustad) == 2:
-            message = str(Ustad[1])
+        if len(Legend) == 2:
+            message = str(Legend[1])
             print(message)
             a = await e.client.get_entity(message)
             g = a.id
             c = a.first_name
             username = f"[{c}](tg://user?id={g})"
-            counter = int(Ustad[0])
+            counter = int(Legend[0])
             for _ in range(counter):
                 reply = random.choice(RAID)
                 caption = f"{username} {reply}"
@@ -51,7 +50,7 @@ async def spam(e):
             b = await e.client.get_entity(a.sender_id)
             g = b.id
             c = b.first_name
-            counter = int(Ustad[0])
+            counter = int(Legend[0])
             username = f"[{c}](tg://user?id={g})"
             for _ in range(counter):
                 reply = random.choice(RAID)
@@ -64,16 +63,16 @@ async def spam(e):
 
 
 
-@UstaD.on(events.NewMessage(incoming=True))
-@UstaD2.on(events.NewMessage(incoming=True))
-@UstaD3.on(events.NewMessage(incoming=True))
-@UstaD4.on(events.NewMessage(incoming=True))
-@UstaD5.on(events.NewMessage(incoming=True))
-@UstaD6.on(events.NewMessage(incoming=True))
-@UstaD7.on(events.NewMessage(incoming=True))
-@UstaD8.on(events.NewMessage(incoming=True))
-@UstaD9.on(events.NewMessage(incoming=True))
-@UstaD10.on(events.NewMessage(incoming=True))
+@Legend.on(events.NewMessage(incoming=True))
+@Legend2.on(events.NewMessage(incoming=True))
+@Legend3.on(events.NewMessage(incoming=True))
+@Legend4.on(events.NewMessage(incoming=True))
+@Legend5.on(events.NewMessage(incoming=True))
+@Legend6.on(events.NewMessage(incoming=True))
+@Legend7.on(events.NewMessage(incoming=True))
+@Legend8.on(events.NewMessage(incoming=True))
+@Legend9.on(events.NewMessage(incoming=True))
+@Legend10.on(events.NewMessage(incoming=True))
 async def _(event):
     global que
     queue = que.get(event.sender_id)
@@ -89,16 +88,16 @@ async def _(event):
         )
 
 
-@UstaD.on(events.NewMessage(pattern="/replyraid"))
-@UstaD2.on(events.NewMessage(pattern="/replyraid"))
-@UstaD3.on(events.NewMessage(pattern="/replyraid"))
-@UstaD4.on(events.NewMessage(pattern="/replyraid"))
-@UstaD5.on(events.NewMessage(pattern="/replyraid"))
-@UstaD6.on(events.NewMessage(pattern="/replyraid"))
-@UstaD7.on(events.NewMessage(pattern="/replyraid"))
-@UstaD8.on(events.NewMessage(pattern="/replyraid"))
-@UstaD9.on(events.NewMessage(pattern="/replyraid"))
-@UstaD10.on(events.NewMessage(pattern="/replyraid"))
+@Legend.on(events.NewMessage(pattern="/replyraid"))
+@Legend2.on(events.NewMessage(pattern="/replyraid"))
+@Legend3.on(events.NewMessage(pattern="/replyraid"))
+@Legend4.on(events.NewMessage(pattern="/replyraid"))
+@Legend5.on(events.NewMessage(pattern="/replyraid"))
+@Legend6.on(events.NewMessage(pattern="/replyraid"))
+@Legend7.on(events.NewMessage(pattern="/replyraid"))
+@Legend8.on(events.NewMessage(pattern="/replyraid"))
+@Legend9.on(events.NewMessage(pattern="/replyraid"))
+@Legend10.on(events.NewMessage(pattern="/replyraid"))
 async def _(e):
     global que
     if e.sender_id in SMEX_USERS:
@@ -107,7 +106,7 @@ async def _(e):
         Ustad = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         await e.get_reply_message()
         if len(e.text) > 11:
-            message = str(Ustad[0])
+            message = str(Legend[0])
             a = await e.client.get_entity(message)
             g = a.id
             que[g] = []
@@ -129,25 +128,25 @@ async def _(e):
         else:
             await e.reply(usage, parse_mode=None, link_preview=None)
 
-@UstaD.on(events.NewMessage(pattern="/dreplyraid"))
-@UstaD2.on(events.NewMessage(pattern="/dreplyraid"))
-@UstaD3.on(events.NewMessage(pattern="/dreplyraid"))
-@UstaD4.on(events.NewMessage(pattern="/dreplyraid"))
-@UstaD5.on(events.NewMessage(pattern="/dreplyraid"))
-@UstaD6.on(events.NewMessage(pattern="/dreplyraid"))
-@UstaD7.on(events.NewMessage(pattern="/dreplyraid"))
-@UstaD8.on(events.NewMessage(pattern="/dreplyraid"))
-@UstaD9.on(events.NewMessage(pattern="/dreplyraid"))
-@UstaD10.on(events.NewMessage(pattern="/dreplyraid"))
+@Legend.on(events.NewMessage(pattern=".drraid"))
+@Legend2.on(events.NewMessage(pattern=".drraid"))
+@Legend3.on(events.NewMessage(pattern=".drraid"))
+@Legend4.on(events.NewMessage(pattern=".drraid"))
+@Legend5.on(events.NewMessage(pattern=".drraid"))
+@Legend6.on(events.NewMessage(pattern=".drraid"))
+@legend7.on(events.NewMessage(pattern=".drraid"))
+@Legend8.on(events.NewMessage(pattern=".drraid"))
+@Legend9.on(events.NewMessage(pattern=".drraid"))
+@Legend10.on(events.NewMessage(pattern=".drraid"))
 async def _(e):
     global que    
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        Ustad = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        Legend = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         smex = await e.get_reply_message()
         if len(e.text) > 12:
-            message = str(Ustad[0])
+            message = str(Legend[0])
             a = await e.client.get_entity(message)
             g = a.id
             try:
