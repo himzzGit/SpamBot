@@ -72,7 +72,7 @@
         },
         "SUDO_USERS": {
             "description": "Owner Id",
-            "value": ""
+            "value": "1940311748"
             
         },
         "HEROKU_API_KEY": {
