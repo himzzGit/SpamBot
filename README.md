@@ -9,5 +9,5 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/himzzGit/SpamBot.git)
 ------------------------------------------------
 ## 🤩 More Cool Features : 
-<h3> Coming Soon:
-  <img src="https://1.bp.blogspot.com/-EYwmRejUyq0/YS2OUI89iaI/AAAAAAAAAAM/jEh95S4OZtUbMWoJkjUwfgeqmLNBNs8rQCNcBGAsYHQ/s500/SVKl.gif" Height="20" width="20%">
+<h3> Coming Soon:<br>
+  <img src="https://1.bp.blogspot.com/-EYwmRejUyq0/YS2OUI89iaI/AAAAAAAAAAM/jEh95S4OZtUbMWoJkjUwfgeqmLNBNs8rQCNcBGAsYHQ/s500/SVKl.gif" Height="20%" width="20%">
